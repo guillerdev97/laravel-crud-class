@@ -17,7 +17,7 @@ class EventController extends Controller
         //
         $events = Event::get();
 
-        /* var_dump($events); */
+        var_dump($events);
     }
 
     /**
