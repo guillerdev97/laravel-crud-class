@@ -16,8 +16,10 @@ class EventController extends Controller
     {
         //
         $events = Event::get();
+       /*  $events = "Hello";
+        var_dump($events); */
 
-        var_dump($events);
+        return view('welcome', compact('events'));
     }
 
     /**
