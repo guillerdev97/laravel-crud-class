@@ -22,6 +22,7 @@ class DatabaseSeeder extends Seeder
         //     'email' => 'test@example.com',
         // ]);
 
+        Event::factory()->create(['name' => 'fkjflksdjf','description' => 'fkjflksdjf', 'img' => 'fkjflksdjf', 'spaces' => 12]);
         Event::factory(5)->create();
     }
 }
